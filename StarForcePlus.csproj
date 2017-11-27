@@ -82,6 +82,12 @@
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>Assets\GameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets\GameMain\Libraries\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets\GameMain\Libraries\LitJson.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GameFramework\Scripts\Runtime\Base\AvoidJIT.cs" />
@@ -288,6 +294,10 @@
     <Compile Include="Assets\GameMain\Scripts\Procedure\ProcedureLaunch.cs" />
     <Compile Include="Assets\GameMain\Scripts\Procedure\ProcedurePreload.cs" />
     <Compile Include="Assets\GameMain\Scripts\Procedure\ProcedureSplash.cs" />
+    <Compile Include="Assets\GameMain\Scripts\Utility\AIUtility.cs" />
+    <Compile Include="Assets\GameMain\Scripts\Utility\AssetUtility.cs" />
+    <Compile Include="Assets\GameMain\Scripts\Utility\LitJsonHelper.cs" />
+    <Compile Include="Assets\GameMain\Scripts\Utility\WebUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GameFramework\Libraries\GameFramework.xml" />
